@@ -1,0 +1,30 @@
+header {
+  display: grid;
+  justify-content: center;
+  justify-items: center;
+  text-align: center;
+  gap: 1rem;
+  margin: 0.5rem auto;
+}
+
+.img {
+  width: 15%;
+}
+
+.title {
+  width: 80%;
+  border: 1px solid grey;
+  outline: 1px solid grey;
+  outline-offset: -10px;
+  letter-spacing: 4px;
+}
+
+.subtitle  {
+  width: 80%;
+  text-transform: capitalize;
+  color: rgb(192, 192, 192);
+  background: black;
+  outline: 1px solid grey;
+  outline-offset: -4px;
+  font-weight: 100;
+}

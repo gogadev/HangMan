@@ -1,0 +1,23 @@
+.wrong-letters-container {
+  position: absolute;
+  padding: 0.1rem 1rem;
+  top: 35px;
+  left: 250px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  background: lightgrey;
+  text-align: center;
+  border: 1px solid grey;
+  outline: 1px solid rgb(243, 243, 243);
+  outline-offset: -6px;
+  color: rgb(150, 150, 150);
+}
+
+.wrong-letters-container span {
+  font-size: 24px;
+}
+
+.message {
+  transform: skew(-20deg);
+}
